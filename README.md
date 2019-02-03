@@ -31,9 +31,13 @@ Your app is ready to be deployed!
 - configurar variavel de ambiente JAVA_HOME apontando para raiz da pasta do JDK
 
 - Baixar o SonarQube e rodar script de start -> Requer SonarQube 7.2+ e/ou SonarJS 4.2+.
+Requer versao por conta de recursos novos ESLINT adicionados -> 
+Ver aqui: https://docs.sonarqube.org/display/PLUG/Importing+ESLint+Issues+Reports
+
+Script para iniciar o SonarQube (em Windows, no Linux/MacOS é .sh) -> 
 ....\sonarqube-7.6\bin\windows-x86-64\StartSonar.bat
 
-- Acessar http://localhost:9000 e confirmar que Sonar está rodando
+- Acessar no browser a URL http://localhost:9000 e confirmar que Sonar está rodando
 
 - Baixar JAR do ESLINT Plugin para Sonar -> URL: https://github.com/sleroy/SonarEsLintPlugin
 
