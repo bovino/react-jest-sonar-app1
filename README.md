@@ -22,13 +22,15 @@ Your app is ready to be deployed!
 
 - instalar o yarn -> npm install -g yarn
 
+- instalar o eslint -> npm install -g eslint
+
 - instalar GIT (preferencialmente com configs globais)
 
 - instalar JDK 8 
 
 - configurar variavel de ambiente JAVA_HOME apontando para raiz da pasta do JDK
 
-- Baixar o Sonar e rodar script de start
+- Baixar o SonarQube e rodar script de start -> Requer SonarQube 7.2+ e/ou SonarJS 4.2+.
 ....\sonarqube-7.6\bin\windows-x86-64\StartSonar.bat
 
 - Acessar http://localhost:9000 e confirmar que Sonar está rodando
@@ -56,3 +58,6 @@ Your app is ready to be deployed!
 - yarn test-full (se estiver em Linux ou MacOS ajustar path do coverage no sonar-project.properties)
 
 - Ir no Sonar ver dados coletados do projeto
+
+- Para testar checagem de duplicação cross-project, baixar o mesmo projeto em outra pasta, troca as chaves sonar.projectKey e sonar.projectName e fazer 
+todo o procedimento para que apareçam dois projetos no Sonar
