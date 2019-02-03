@@ -1,21 +1,25 @@
 import React from 'react';
-import Enzyme, {shallow} from 'enzyme';
-// import Adapter from 'enzyme-adapter-react-16';
-import App2 from './App2';
-
-// poder setup global se preferir 
-// Enzyme.configure({adapter: new Adapter()});
+import Enzyme, {shallow, mount} from 'enzyme';
+import App2, {Header, Content} from './App2';
 
 test('shallow render basicao', () => {
-  const props = {}
+  const props = {};
   const wrapper = shallow(<App2 {...props} />);
-  console.log('::: DEBUG ::: ' + wrapper.debug());
+  console.log('::: DEBUG Shallow Wrapper ::: ' + wrapper.debug());
   expect(wrapper).toMatchSnapshot();
 })
 
 test('buscando  Header e Content', () => {
-  const props = {}
+  const props = {};
   const wrapper = shallow(<App2 {...props} />);
-  expect(wrapper.find('Header')).toEqual(true);
-  expect(wrapper.find('Content')).toEqual(true);
+  expect(wrapper.find('Header').exists()).toBe(true);
+  expect(wrapper.find('Content').exists()).toBe(true);
 })
+
+test('montar o componente', () => {
+    const props = {};
+    const wrapper = mount(<App2 {...props} />);
+	console.log('::: DEBUG Mount Wrapper ::: ' + wrapper.debug());
+    expect(wrapper.find('Header')).toHaveLength(1);
+	expect(wrapper.find('Content')).toHaveLength(1);
+});
