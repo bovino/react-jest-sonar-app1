@@ -53,5 +53,5 @@ Script para iniciar o SonarQube (em Windows, no Linux/MacOS é .sh) ->
 
 - Ir no Sonar ver dados coletados do projeto
 
-- Para testar checagem de duplicação cross-project, baixar o mesmo projeto em outra pasta, troca as chaves sonar.projectKey e sonar.projectName e fazer 
-todo o procedimento para que apareçam dois projetos no Sonar
+- Para testar checagem de duplicação cross-project, baixar o mesmo projeto em outra pasta, troca as chaves sonar.projectKey e sonar.projectName (ambas no arquivo sonar-project.properties) 
+e depois fazer todo o procedimento para que apareçam dois projetos no Sonar, permitindo visualizar a duplicação entre eles
