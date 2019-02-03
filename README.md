@@ -39,16 +39,6 @@ Script para iniciar o SonarQube (em Windows, no Linux/MacOS é .sh) ->
 
 - Acessar no browser a URL http://localhost:9000 e confirmar que Sonar está rodando
 
-- Baixar JAR do ESLINT Plugin para Sonar -> URL: https://github.com/sleroy/SonarEsLintPlugin
-
-- Copiar o jar do plugin ESLINT-Sonar na pasta "extensions/plugins" do Sonar
-
-- Reiniciar o Sonar para que ele reconheça o plugin 
-
-- Acessar http://localhost:9000 e confirmar que Sonar está rodando
-
-- Logar como admin (usuário e senha admin) para ver o ESLINT na lista de Profiles disponiveis
-
 - Voltar para a linha de comando e ir para sua pasta de desenvolvimento
 
 - criar uma pasta
