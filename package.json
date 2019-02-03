@@ -1,7 +1,7 @@
 {
   "name": "react-jest-sonar-app1",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "dependencies": {
     "eslint-plugin-react": "^7.12.4",
     "react": "^16.7.0",
