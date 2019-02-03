@@ -6,6 +6,8 @@ In the project directory, you can run:
 
 - yarn start
 - yarn test --coverage
+- yarn sonar-scanner
+- yarn test-full -> Executa test, mostra o coverage, rodar eslint gerando seu arquivo report e ja chama o sonar-scanner na sequencia
 - yarn build
 
 Builds the app for production to the `build` folder.<br>

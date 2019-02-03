@@ -10,7 +10,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+	"eslint": "eslint -f json -o report.json .",
     "build": "react-scripts build",
+	"test-full": "react-scripts test --coverage & eslint -f json -o report.json . & sonar-scanner -X",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
