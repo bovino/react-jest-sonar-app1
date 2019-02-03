@@ -16,11 +16,9 @@ Your app is ready to be deployed!
 
 ## Passos para executar
 
-- instalar o CLI do Creat React App com NPM
-npm install -g react-scripts@latest
+- instalar o CLI do Creat React App com NPM -> npm install -g react-scripts@latest
 
-- instalar o yarn
-npm install -g yarn
+- instalar o yarn -> npm install -g yarn
 
 - instalar JDK 8 
 - configurar variavel de ambiente JAVA_HOME apontando para raiz da pasta do JDK
@@ -30,7 +28,9 @@ npm install -g yarn
 
 - Acessar http://localhost:9000 e confirmar que Sonar está rodando
 
-- Baixar e copiar o jar do plugin ESLINT do Sonar na pasta "extensions/plugins" do Sonar
+- Baixar JAR do ESLINT Plugin para Sonar -> URL: https://github.com/sleroy/SonarEsLintPlugin
+
+- Copiar o jar do plugin ESLINT-Sonar na pasta "extensions/plugins" do Sonar
 
 - Reiniciar o Sonar para que ele reconheça o plugin 
 
