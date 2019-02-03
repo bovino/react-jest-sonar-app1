@@ -22,7 +22,10 @@ Your app is ready to be deployed!
 
 - instalar o yarn -> npm install -g yarn
 
+- instalar GIT (preferencialmente com configs globais)
+
 - instalar JDK 8 
+
 - configurar variavel de ambiente JAVA_HOME apontando para raiz da pasta do JDK
 
 - Baixar o Sonar e rodar script de start
