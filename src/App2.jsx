@@ -10,6 +10,7 @@ class App2 extends React.Component {
       );
    }
 }
+
 class Header extends React.Component {
    render() {
       return (
@@ -19,6 +20,7 @@ class Header extends React.Component {
       );
    }
 }
+
 class Content extends React.Component {
    render() {
       return (
@@ -29,4 +31,5 @@ class Content extends React.Component {
       );
    }
 }
+
 export default App2;
