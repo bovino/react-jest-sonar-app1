@@ -55,3 +55,5 @@ Script para iniciar o SonarQube (em Windows, no Linux/MacOS é .sh) ->
 
 - Para testar checagem de duplicação cross-project, baixar o mesmo projeto em outra pasta, troca as chaves sonar.projectKey e sonar.projectName (ambas no arquivo sonar-project.properties) 
 e depois fazer todo o procedimento para que apareçam dois projetos no Sonar, permitindo visualizar a duplicação entre eles
+
+[[https://github.com/bovino/react-jest-sonar-app1/blob/master/public/sonar.png|alt=React+Jest+Enzyme+ESLint+Sonar Integration]]
