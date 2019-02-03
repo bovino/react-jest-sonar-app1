@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and customized for Jest+Enzyme+ESLINT+SonarQube integration.
 
 ## Available Scripts
 
@@ -43,7 +43,7 @@ Script para iniciar o SonarQube (em Windows, no Linux/MacOS é .sh) ->
 
 - criar uma pasta
 
-- git clone do projeto nessa pasta https://github.com/bovino/react-jest-sonar-app1
+- git clone do projeto nessa pasta -> git clone https://github.com/bovino/react-jest-sonar-app1
 
 - cd react-jest-sonar-app1
 
