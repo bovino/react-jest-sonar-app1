@@ -53,8 +53,6 @@ Your app is ready to be deployed!
 
 - yarn install
 
-- yarn test --coverage
-
-- yarn sonar-scanner (se estiver em Linux ou MacOS ajustar path do coverage no sonar-project.properties)
+- yarn test-full (se estiver em Linux ou MacOS ajustar path do coverage no sonar-project.properties)
 
 - Ir no Sonar ver dados coletados do projeto
